@@ -1,0 +1,38 @@
+{
+    "name": "cinema-ticket-booking-api",
+    "version": "1.0.0",
+    "description": "Cinema ticket booking API",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js",
+        "server": "nodemon server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/leslieelijah/cinema-ticket-booking-api.git"
+    },
+    "keywords": [
+        "cinema-api"
+    ],
+    "author": "Prince Ngwako L.E. Mahasha",
+    "license": "ISC",
+    "esversion": 6,
+    "bugs": {
+        "url": "https://github.com/leslieelijah/cinema-ticket-booking-api/issues"
+    },
+    "homepage": "https://github.com/leslieelijah/cinema-ticket-booking-api#readme",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "concurrently": "^5.2.0",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "jshint": "^2.11.1",
+        "mongodb": "^3.5.8",
+        "mongoose": "^5.9.16"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    }
+}
